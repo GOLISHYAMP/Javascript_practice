@@ -85,14 +85,31 @@
 ////////////////////////////////////////
 //////////// Manipulating DOM ///////////////
 //// Very interesting  ///////////////
-const ul = document.querySelector(".items")
+// const ul = document.querySelector(".items")
 // ul.remove()
 // ul.lastElementChild.remove()
 
-ul.firstElementChild.textContent = "Hello"
-ul.children[1].textContent = "Shyam"
-ul.lastElementChild.innerHTML = "<h1>Ram</h1>"
+// ul.firstElementChild.textContent = "Hello"
+// ul.children[1].textContent = "Shyam"
+// ul.lastElementChild.innerHTML = "<h1>Ram</h1>"
 
-const btn = document.querySelector('.btn');
-btn.style.background = "red"
-btn.style.color = "black"
+// const btn = document.querySelector('.btn');
+// btn.style.background = "red"
+// btn.style.color = "black"
+
+// const btn = document.querySelector(".btn");
+// btn.addEventListener("click" , (e) => {
+//     e.preventDefault();
+//     document.querySelector("#my-form").style.background = 'green';
+//     document.querySelector('body').classList.add('bg-dark');
+//     const li = document.createElement("li");
+//     li.appendChild(document.createTextNode(`Shyam : shyam@goli`));
+//     document.querySelector('.items').appendChild(li);
+// });
+
+
+
+
+
+
+
